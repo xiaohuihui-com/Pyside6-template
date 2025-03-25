@@ -1,0 +1,49 @@
+QWidget {
+    color: white;
+}
+
+#appBox {
+    background-color: qlineargradient(x0:0,
+    y0: 1,
+    x1: 1,
+    y1: 1,
+    stop: 0.4 rgb(107, 128, 210),
+    stop: 1 rgb(180, 140, 255));
+    border: 2px solid #02a6b5;
+    border-radius: 30px
+}
+
+#center *{
+    background-color: qlineargradient(x0:0,
+    y0: 1,
+    x1: 1,
+    y1: 1,
+    stop: 0.4 rgb(107, 128, 210),
+    stop: 1 rgb(180, 140, 255));
+    border: 1px solid white;
+}
+#bottom .QPushButton {
+	border: 2px solid white;
+    border-radius: 15px;
+	text-align: center;
+}
+#bottom .QPushButton:hover {
+	background-color: rgb(40, 44, 52);
+}
+#bottom .QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+	color: rgb(255, 255, 255);
+}
+
+#top .QPushButton {
+	border: 2px solid white;
+    border-radius: 10px;
+	text-align: center;
+}
+#top .QPushButton:hover {
+	background-color: rgb(40, 44, 52);
+}
+#top .QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+	color: rgb(255, 255, 255);
+}

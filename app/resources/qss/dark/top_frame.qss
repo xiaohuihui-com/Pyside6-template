@@ -1,0 +1,16 @@
+#top_frame {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    font: bold 26px "Microsoft YaHei UI";
+}
+
+#time {
+    color: rgb(255, 0, 255);
+    font: bold 20px "Microsoft YaHei UI";
+}
+
